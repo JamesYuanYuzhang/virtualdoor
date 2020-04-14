@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <div class="flex-box">
+    <h5>🔐👮🏻‍♂️</h5>
+    <h1>PassCode Boxes</h1>
+    <div class="display">
+    <div class="text" id="text"></div>
+    </div>
+    <h3>Enter your passcode</h3>
+    <div class="passcode-area">
+      <input id="t1" autofocus type="text" maxlength="1">
+      <input id="t2" type="text" maxlength="1">
+      <input id="t3" type="text" maxlength="1">
+      <input id="t4" type="text" maxlength="1">
+      <input id="t5" type="text" maxlength="1">
+      <input id="t6" type="text" maxlength="1">
+    </div>
+  </div>
+  <button type="submit" class="submitBtn" >Submit</button>
+</body>
+<!-- partial -->
+  <script type="text/javascript" src="apiGateway-js-sdk/lib/axios/dist/axios.standalone.js"></script>
+  <script type="text/javascript" src="apiGateway-js-sdk/lib/CryptoJS/rollups/hmac-sha256.js"></script>
+  <script type="text/javascript" src="apiGateway-js-sdk/lib/CryptoJS/rollups/sha256.js"></script>
+  <script type="text/javascript" src="apiGateway-js-sdk/lib/CryptoJS/components/hmac.js"></script>
+  <script type="text/javascript" src="apiGateway-js-sdk/lib/CryptoJS/components/enc-base64.js"></script>
+  <script type="text/javascript" src="apiGateway-js-sdk/lib/url-template/url-template.js"></script>
+  <script type="text/javascript" src="apiGateway-js-sdk/lib/apiGatewayCore/sigV4Client.js"></script>
+  <script type="text/javascript" src="apiGateway-js-sdk/lib/apiGatewayCore/apiGatewayClient.js"></script>
+  <script type="text/javascript" src="apiGateway-js-sdk/lib/apiGatewayCore/simpleHttpClient.js"></script>
+  <script type="text/javascript" src="apiGateway-js-sdk/lib/apiGatewayCore/utils.js"></script>
+  <script type="text/javascript" src="apiGateway-js-sdk/apigClient.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
